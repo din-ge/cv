@@ -5,6 +5,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
 const del = require('del');
+const { src } = require('gulp');
 const browserSync = require('browser-sync').create();
 
 // css ფაილების ჩართვის თანმიმდევრობა
